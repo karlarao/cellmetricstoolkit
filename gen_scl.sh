@@ -13,7 +13,8 @@ cell_mbs="CD_IO_BY_R_LG_SEC,CD_IO_BY_R_SM_SEC,CD_IO_BY_W_LG_SEC,CD_IO_BY_W_SM_SE
 # cell latency
 cell_latency="CD_IO_TM_R_LG_RQ,CD_IO_TM_R_SM_RQ,CD_IO_TM_W_LG_RQ,CD_IO_TM_W_SM_RQ"
 # flash space
-cell_flash_space="FC_BY_ALLOCATED,FC_BY_USED,DB_FC_BY_ALLOCATED"
+# cell_flash_space="FC_BY_ALLOCATED,FC_BY_USED,DB_FC_BY_ALLOCATED"
+cell_flash_space="FC_BY_ALLOCATED,FC_BY_USED"
 # flash destage
 cell_flash_destage="FC_IO_RQ_W_OVERWRITE_SEC,FC_IO_RQ_W_FIRST_SEC,FC_IO_RQ_R_MISS_SEC,FC_IO_RQ_W_POPULATE_SEC,FC_IO_RQ_DISK_WRITE_SEC"
 # flashlog skip
