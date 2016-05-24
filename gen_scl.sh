@@ -7,11 +7,11 @@ read end_time
 # cell additional stats
 cell_addtl_stats="CL_FSUT,CL_CPUT,CL_MEMUT,IORM_MODE,SIO_IO_RV_OF_SEC,SIO_IO_PA_TH_SEC"
 # cell iops
-cell_iops="CD_IO_RQ_R_LG_SEC,CD_IO_RQ_R_SM_SEC,CD_IO_RQ_W_LG_SEC,CD_IO_RQ_W_SM_SEC"
+#cell_iops="CD_IO_RQ_R_LG_SEC,CD_IO_RQ_R_SM_SEC,CD_IO_RQ_W_LG_SEC,CD_IO_RQ_W_SM_SEC"
 # cell mbs
-cell_mbs="CD_IO_BY_R_LG_SEC,CD_IO_BY_R_SM_SEC,CD_IO_BY_W_LG_SEC,CD_IO_BY_W_SM_SEC"
+#cell_mbs="CD_IO_BY_R_LG_SEC,CD_IO_BY_R_SM_SEC,CD_IO_BY_W_LG_SEC,CD_IO_BY_W_SM_SEC"
 # cell latency
-cell_latency="CD_IO_TM_R_LG_RQ,CD_IO_TM_R_SM_RQ,CD_IO_TM_W_LG_RQ,CD_IO_TM_W_SM_RQ"
+#cell_latency="CD_IO_TM_R_LG_RQ,CD_IO_TM_R_SM_RQ,CD_IO_TM_W_LG_RQ,CD_IO_TM_W_SM_RQ"
 # flash space
 # cell_flash_space="FC_BY_ALLOCATED,FC_BY_USED,DB_FC_BY_ALLOCATED"
 cell_flash_space="FC_BY_ALLOCATED,FC_BY_USED"
@@ -22,11 +22,11 @@ cell_flashlog_skip="FL_EFFICIENCY_PERCENTAGE_HOUR,FL_IO_W,FL_IO_W_SKIP_BUSY,FL_I
 # flashlog outliers
 cell_flashlog_outliers="FL_FLASH_FIRST,FL_DISK_FIRST,FL_PREVENTED_OUTLIERS,FL_ACTUAL_OUTLIERS"
 # db iops
-cell_db_iops="DB_IO_RQ_LG_SEC,DB_IO_RQ_SM_SEC,DB_FD_IO_RQ_LG_SEC,DB_FD_IO_RQ_SM_SEC"
+#cell_db_iops="DB_IO_RQ_LG_SEC,DB_IO_RQ_SM_SEC,DB_FD_IO_RQ_LG_SEC,DB_FD_IO_RQ_SM_SEC"
 # db mbs
-cell_db_mbs="DB_IO_BY_SEC,DB_FC_IO_BY_SEC,DB_FD_IO_BY_SEC,DB_FL_IO_BY_SEC"
+#cell_db_mbs="DB_IO_BY_SEC,DB_FC_IO_BY_SEC,DB_FD_IO_BY_SEC,DB_FL_IO_BY_SEC"
 # db latency
-cell_db_latency="DB_FD_IO_WT_LG_RQ,DB_FD_IO_WT_SM_RQ,DB_IO_WT_LG_RQ,DB_IO_WT_SM_RQ"
+#cell_db_latency="DB_FD_IO_WT_LG_RQ,DB_FD_IO_WT_SM_RQ,DB_IO_WT_LG_RQ,DB_IO_WT_SM_RQ"
 # cg iops
 cell_cg_iops="CG_IO_RQ_LG_SEC,CG_IO_RQ_SM_SEC,CG_FD_IO_RQ_LG_SEC,CG_FD_IO_RQ_SM_SEC"
 # cg mbs
