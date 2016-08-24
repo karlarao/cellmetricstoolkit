@@ -4,12 +4,14 @@
 --
 
 Here's the general workflow: 
-1) gen_scl.sh
-2) distribute_scl.sh
-3) run_scl.sh
-4) process_files.sh 
-5) transfer files to your desktop
-6) unzip.sh 
+* 1_gen_scl.sh
+* 2_distribute_scl.sh
+* 3_run_scl.sh
+* transfer files to your desktop or another server w/ ample space
+* 4_process_files.sh 
+* email/ftp zip files
+* 5_unzip.sh 
+* graph the new data 
 
 read more on the doc "HOWTO – extract cell metrics by Flash vs Hard Disk_v2"
 
