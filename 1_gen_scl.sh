@@ -4,6 +4,11 @@ read start_time
 echo "enter end time (format: 2016-03-15T21:00:00-06:00) ->"
 read end_time
 
+export DATE=$(date +%Y%m%d%H%M%S)
+mkdir archive_$DATE
+mv *scl archive_$DATE
+mv 2_* 3_* archive_$DATE
+
 # cell additional stats
 cell_addtl_stats="CL_FSUT,CL_CPUT,CL_MEMUT,IORM_MODE,SIO_IO_RV_OF_SEC,SIO_IO_PA_TH_SEC"
 # cell iops
