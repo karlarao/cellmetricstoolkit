@@ -1,3 +1,4 @@
+#!/bin/bash
 
 bunzip2 *bz2
 

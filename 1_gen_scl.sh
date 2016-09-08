@@ -1,3 +1,4 @@
+#!/bin/bash
 
 echo "enter start time (format: 2016-03-14T01:00:00-06:00) ->"
 read start_time
